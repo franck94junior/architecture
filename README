@@ -1,0 +1,34 @@
+# Architecture Applicative Open Source
+
+Cette architecture applicative est conçue pour une application mobile (Flutter), web (Angular) et backend (NestJS), avec une infrastructure complète basée sur des outils open source et orchestrée via Docker Compose.
+
+---
+
+## 🧱 Technologies utilisées
+
+### Frontend
+- **Mobile** : Flutter
+- **Web** : Angular
+- **State Management** : Riverpod / Bloc (Flutter), NgRx (Angular)
+
+### Backend
+- **Framework** : NestJS
+- **API** : REST ou GraphQL
+- **Authentification** : Keycloak (OpenID Connect, OAuth2), JWT
+- **ORM** : TypeORM ou Prisma
+
+### Base de données et stockage
+- **Base de données** : PostgreSQL
+- **Cache** : Redis
+- **Stockage d’objets** : MinIO (compatible S3)
+
+### Observabilité
+- **Monitoring** : Prometheus + Grafana
+- **Logging** : ELK Stack (Elasticsearch, Logstash, Kibana)
+- **Tracing** : Jaeger + OpenTelemetry
+
+### Infrastructure
+- **Conteneurisation** : Docker
+- **Orchestration** : Docker Compose
+- **CI/CD** : GitLab CI, Jenkins, Drone CI
+- **Infrastructure as Code** : Terraform ou Pulumi
